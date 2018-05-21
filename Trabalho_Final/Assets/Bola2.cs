@@ -26,7 +26,7 @@ public class Bola2 : MonoBehaviour {
 
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 
-		rb.AddForce (movement * speed * 2);
+		rb.AddForce (movement * speed);
 	}
 
 	private void OnTriggerEnter(Collider other){

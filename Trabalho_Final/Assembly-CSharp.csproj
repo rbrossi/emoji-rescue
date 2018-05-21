@@ -55,6 +55,7 @@
      <Compile Include="Assets\Bola2.cs" />
      <Compile Include="Assets\Bola3.cs" />
      <Compile Include="Assets\DestroyByContact.cs" />
+     <Compile Include="Assets\FuryGuy.cs" />
      <Compile Include="Assets\GoogleGoMap\Example\SimpleController.cs" />
      <Compile Include="Assets\GoogleGoMap\Scripts\GameManager.cs" />
      <Compile Include="Assets\GoogleGoMap\Scripts\GeoPoint.cs" />
