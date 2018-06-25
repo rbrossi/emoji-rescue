@@ -13,6 +13,8 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+2850f796e133148446e1d0f6b7b28e19 Assembly-CSharp.dll:.Bola4
+61d5e9c0de8316bbc6fb37fa522bf224 Assembly-CSharp.dll:.FuryGuy
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -115,6 +117,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 2f6c35714e3e0b4b7d8584cb6422e14f Assembly-CSharp.dll:.GameManager
 c246744f1ff43d6e46ca91a40fb77fce Assembly-CSharp.dll:.PhoneCamera
 52cb790ca9212cbefaae0243f72c37cc Assembly-CSharp.dll:.SimpleController
+81d3fa35f3270744d8c271fbb7597c65 Assembly-UnityScript.dll:.timer
 1e39ddab9c2917fe5b2878bfac4f2bba Assembly-CSharp.dll:.Bola3
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -141,4 +144,8 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
+1818baf57a03cae587e5f3163cd73f52 Assembly-CSharp.dll:.Spawner3
+1818baf57a03cae587e5f3163cd73f52 Assembly-CSharp.dll:.Spawner2
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyByContact
+c3074b6400124e1951b0d582aa9cd52e Assembly-CSharp.dll:.Spawner4
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Zerado

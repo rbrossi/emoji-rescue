@@ -9,6 +9,7 @@ public class Bola3 : MonoBehaviour {
 	Rigidbody rb;
 	public float speed;
 	public Text text;
+	Gerenciador gerenciador = Gerenciador.getInstance();
 
 	// Use this for initialization
 	void Start () {
@@ -38,7 +39,11 @@ public class Bola3 : MonoBehaviour {
 		if (other.CompareTag ("WinTrigger")) {
 			text.text = "You win";
 			speed = 0;
-			SceneManager.LoadScene (1);
+			if (gerenciador.isZerou ()) {
+				SceneManager.LoadScene (4);
+			} else {
+				SceneManager.LoadScene (1);
+			}
 		}
 	}
 

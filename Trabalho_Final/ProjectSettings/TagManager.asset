@@ -6,6 +6,9 @@ TagManager:
   tags:
   - WinTrigger
   - Projetil
+  - Botao
+  - Projetil1
+  - Botao2
   layers:
   - Default
   - TransparentFX

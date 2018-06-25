@@ -9,17 +9,17 @@ EditorBuildSettings:
     path: Assets/Labirinto2.unity
     guid: a3decaaf814a91b4198b9149e089797c
   - enabled: 1
-    path: Assets/Trabalho_Final.unity
-    guid: b3dc6d2b7d23de843afccc0b6d25e6f6
-  - enabled: 1
     path: Assets/Labirinto1.unity
     guid: b8f2a588d04e1644aa38dc49581402ef
   - enabled: 1
-    path: Assets/scene.unity
-    guid: 2d167da0c80d4154fbdff114920c9ca7
-  - enabled: 1
-    path: Assets/Camera.unity
-    guid: c66c2d761c27e9f47b3f31ec72e50cda
+    path: Assets/Trabalho_Final.unity
+    guid: b3dc6d2b7d23de843afccc0b6d25e6f6
   - enabled: 1
     path: Assets/Fase_Final.unity
     guid: dda3506acc4899845b76ebb7e468625d
+  - enabled: 1
+    path: Assets/scene.unity
+    guid: 2d167da0c80d4154fbdff114920c9ca7
+  - enabled: 0
+    path: Assets/Camera.unity
+    guid: c66c2d761c27e9f47b3f31ec72e50cda

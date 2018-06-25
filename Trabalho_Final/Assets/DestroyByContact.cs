@@ -5,6 +5,8 @@ using UnityEngine;
 public class DestroyByContact : MonoBehaviour {
 
 	private void OnTriggerEnter(Collider other){
-		Destroy (gameObject);
+		//if (other.tag != "Projetil") {
+			Destroy (gameObject);
+		//}
 	}
 }
