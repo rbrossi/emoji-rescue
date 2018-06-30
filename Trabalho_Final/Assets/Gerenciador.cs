@@ -10,9 +10,13 @@ public class Gerenciador {
 	private bool disparar = false;
 	private bool carregado = false;
 	private bool zerou = false;
+	private bool mostrandoPerdeu = false;
+	private int faseparavoltar = 0;
+	private float timer = 0;
 	private static Gerenciador uniqueGerenciador;
 	private int vidas = 5;
 	private Vector3 posicaoBola = new Vector3(0, 0.0f, 0f);
+	public int cena = 0;
 
 	private Gerenciador(){
 		
@@ -39,6 +43,14 @@ public class Gerenciador {
 
 	public void setLiberadoBotao1(bool status){
 		this.liberadoBotao1 = status;
+	}
+
+	public int getCena(){
+		return cena;
+	}
+
+	public void setCena(int cena){
+		this.cena = cena;
 	}
 
 	public bool isLiberadoBotao2(){
@@ -79,6 +91,12 @@ public class Gerenciador {
 
 	public void setVidas(int vidas){
 		this.vidas = vidas;
+	}
+
+	public void chamarPerdeu(int fase){
+		mostrandoPerdeu = true;
+		faseparavoltar = fase;
+		SceneManager.LoadScene (5);
 	}
 
 	// Use this for initialization

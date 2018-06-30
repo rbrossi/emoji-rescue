@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System;
 
 
 public class Bola4 : MonoBehaviour {
@@ -16,12 +17,13 @@ public class Bola4 : MonoBehaviour {
 	public AudioClip sem_municao;
 	public AudioClip tiro;
 
-
 	// Use this for initialization
-	void Start () {
+	void Start () {		
+		gerenciador.setCena (SceneManager.GetActiveScene ().buildIndex);
+		gerenciador.setCarregado (false);
+		gerenciador.setVidas (5);
 		rb = GetComponent<Rigidbody> ();
-		GetComponent<AudioSource> ().clip = recarregar;
-		GetComponent<AudioSource> ().Play ();
+
 	}
 
 	// Update is called once per frame
@@ -51,14 +53,14 @@ public class Bola4 : MonoBehaviour {
 
 	private void OnTriggerEnter(Collider other){
 		if (other.CompareTag ("Projetil")) {
-			text.text = "Game Over";
+			text.text = "Você perdeu!";
 			speed = 0;
-			StartCoroutine(Example());
-			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+			//StartCoroutine(Whatever());
+			SceneManager.LoadScene(5);
 		}
 		if (other.CompareTag ("WinTrigger")) {
 			speed = 0;
-			StartCoroutine(Example());
+
 			if (gerenciador.isZerou ()) {
 				SceneManager.LoadScene (4);
 			} else {
@@ -94,10 +96,16 @@ public class Bola4 : MonoBehaviour {
 		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
 	}
 
-	IEnumerator Example()
+	IEnumerator Whatever()
 	{
-		yield return new WaitForSeconds(5);
+		float timeToWait = 2;
+		float incrementToRemove  = 0.5f;
+		while(timeToWait > 0)
+		{
+			yield return new WaitForSeconds(incrementToRemove );
+			timeToWait -= incrementToRemove;
+		}
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
 	}
-
 
 }

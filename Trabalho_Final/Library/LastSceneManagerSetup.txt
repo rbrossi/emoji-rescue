@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Fase_Final.unity
+- path: Assets/Labirinto2.unity
   isLoaded: 1
   isActive: 1

@@ -13,6 +13,7 @@ public class Bola : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		gerenciador.setCena (SceneManager.GetActiveScene ().buildIndex);
 		rb = GetComponent<Rigidbody> ();
 	}
 	
@@ -34,10 +35,9 @@ public class Bola : MonoBehaviour {
 		if (other.CompareTag ("Projetil")) {
 			text.text = "Game Over";
 			speed = 0;
-			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+			SceneManager.LoadScene(5);
 		}
 		if (other.CompareTag ("WinTrigger")) {
-			text.text = "You win";
 			speed = 0;
 			if (gerenciador.isZerou ()) {
 				SceneManager.LoadScene (4);

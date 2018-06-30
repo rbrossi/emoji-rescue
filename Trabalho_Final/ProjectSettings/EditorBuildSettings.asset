@@ -17,9 +17,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Fase_Final.unity
     guid: dda3506acc4899845b76ebb7e468625d
-  - enabled: 1
+  - enabled: 0
     path: Assets/scene.unity
     guid: 2d167da0c80d4154fbdff114920c9ca7
+  - enabled: 1
+    path: Assets/vitoria.unity
+    guid: 0d770a348b3fde442a7edfee33940b1f
+  - enabled: 0
+    path: Assets/scene 2.unity
+    guid: 8952e1872da3e674e892acc2466377c6
+  - enabled: 0
+    path: Assets/venceu.unity
+    guid: 44b3d005765eade45a6731fb30f6b8de
   - enabled: 0
     path: Assets/Camera.unity
     guid: c66c2d761c27e9f47b3f31ec72e50cda
+  - enabled: 1
+    path: Assets/perdeu.unity
+    guid: 67a2ee085e1fc93459d1011028c6de58
+  - enabled: 1
+    path: Assets/scene 1.unity
+    guid: 79aff5a5c4fa9ea4b9a58f5ace383cf1
